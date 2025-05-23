@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Curl the Cloudflared tunnel API
         run: |
-          curl -s -o /dev/null -w "%{http_code}\n" https://backgrounds-spokesman-tgp-acer.trycloudflare.com/
+          curl -s -o /dev/null -w "%{http_code}\n" https://simple-cron-test.onrender.com/
