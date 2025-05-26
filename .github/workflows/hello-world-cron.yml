@@ -1,8 +1,8 @@
-name: Curl API Every 5 Minutes
+name: Curl API Daily
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
+    - cron: '0 0 * * *'  # At 00:00 UTC daily
   workflow_dispatch:       # Manual trigger
 
 jobs:
